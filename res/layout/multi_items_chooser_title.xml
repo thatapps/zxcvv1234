@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/app_chooser_title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/custom_dialog_title_height"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="8.0dip" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_app_chooser_title_horizontal_padding"
+        android:paddingRight="@dimen/activity_app_chooser_title_horizontal_padding" >
+
+        <TextView
+            android:id="@id/app_chooser_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:gravity="center_vertical"
+            android:text="@string/pref_title_white_list"
+            android:textColor="@color/custom_dialog_title_text_color_default"
+            android:textSize="@dimen/custom_dialog_title_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/custom_dialog_title_separator_color_default" />
+
+</LinearLayout>

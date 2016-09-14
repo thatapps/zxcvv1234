@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">Il y a %1$sj</item>
+        <item quantity="one">Il y a %1$sj</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">Il y a %1$sh</item>
+        <item quantity="one">Il y a %1$sh</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">Il y a %1$sm</item>
+        <item quantity="one">Il y a %1$sm</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">本服務僅用於開啟單手划划操作校正功能，不會進行任何的收集和記錄。如果操作手機時出現系統語音提示，請在系統設定的協助工具中關閉TalkBack功能。</string>
+</resources>

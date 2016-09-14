@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">تُستخدَم هذه الخدمة فقط لفتح وظيفة تصحيح تشغيل Omni Swipe. لا تقوم هذه الخدمة بأي جمع أو تسجيل. إذا صدر أي صوت عاجل للنظام أثناء تشغيلك للهاتف, يُرجَى إيقاف تشغيل وظيفة TalkBack الموجودة ضمن الوظائف المساعدة الخاصة بإعدادات النظام.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lazy="http://schemas.android.com/apk/res-auto" >
+
+    <com.lazyswipe.preference.MyCheckBoxPreference
+        android:defaultValue="true"
+        android:key="key_sms_notification"
+        android:src="@drawable/preference_icon_sms_notification"
+        android:title="@string/pref_notification_sms_title"
+        lazy:position="middle" />
+    <com.lazyswipe.preference.MyCheckBoxPreference
+        android:key="key_whatsapp_notification"
+        android:persistent="false"
+        android:src="@drawable/preference_icon_whatsapp_notification"
+        lazy:position="middle" />
+    <com.lazyswipe.preference.MyCheckBoxPreference
+        android:key="key_wechat_notification"
+        android:persistent="false"
+        android:src="@drawable/preference_icon_wechat_notification"
+        lazy:position="middle" />
+    <com.lazyswipe.preference.MyCheckBoxPreference
+        android:key="key_gmail_notification"
+        android:persistent="false"
+        android:src="@drawable/preference_icon_gmail_notification"
+        lazy:position="middle" />
+
+    <com.lazyswipe.preference.MyPreference
+        android:key="key_notification_apps_selected"
+        android:src="@drawable/preference_icon_notification"
+        android:title="@string/pref_notification_other_title"
+        lazy:position="bottom" />
+
+</PreferenceScreen>

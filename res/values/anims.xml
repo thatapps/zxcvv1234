@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="anim" name="cycle">false</item>
+    <item type="anim" name="fan_item_shake">false</item>
+</resources>

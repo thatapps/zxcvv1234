@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/menu_facebook"
+        android:showAsAction="never"
+        android:title="@string/pref_title_facebook"
+        android:visible="@bool/config_is_global"/>
+    <item
+        android:id="@id/menu_feedback"
+        android:showAsAction="never"
+        android:title="@string/activity_title_feedback"/>
+    <item
+        android:id="@id/menu_faq"
+        android:showAsAction="never"
+        android:title="@string/pref_title_faq"/>
+    <item
+        android:id="@id/menu_upgrade"
+        android:showAsAction="never"
+        android:title="@string/pref_title_upgrade"/>
+
+</menu>

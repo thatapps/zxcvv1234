@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="ic_app_download_white">false</item>
+    <item type="drawable" name="ic_app_promotion">false</item>
+    <item type="drawable" name="ic_toucher">false</item>
+    <item type="drawable" name="pref_indicator_star">false</item>
+    <item type="drawable" name="preference_icon_accessibility_touch">false</item>
+    <item type="drawable" name="preference_icon_black_recents">false</item>
+    <item type="drawable" name="preference_icon_facebook">false</item>
+    <item type="drawable" name="preference_icon_feedback">false</item>
+    <item type="drawable" name="preference_icon_notification_details">false</item>
+    <item type="drawable" name="preference_icon_recent_contacts">false</item>
+    <item type="drawable" name="preference_icon_tabs">false</item>
+    <item type="drawable" name="preference_icon_toucher_position">false</item>
+    <item type="drawable" name="preference_icon_upgrade">false</item>
+    <item type="drawable" name="preference_icon_when_to_pop">false</item>
+    <item type="drawable" name="preference_icon_white_list">false</item>
+</resources>

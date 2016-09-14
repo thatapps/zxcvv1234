@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.features.poptime.PopTimeBlackListLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="80.0dip"
+    android:paddingLeft="@dimen/custom_dialog_list_item_padding"
+    android:paddingRight="@dimen/custom_dialog_list_item_padding" >
+
+    <RelativeLayout
+        android:id="@id/black_list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="31.0dip"
+        android:paddingTop="6.0dip" >
+
+        <TextView
+            android:id="@id/black_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pop_time_black_list_dialog_tip"
+            android:textColor="#ffb2b2b2"
+            android:textSize="@dimen/preference_description_text_size" />
+
+        <com.lazyswipe.ui.HorizontalListView
+            android:id="@id/black_list"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_below="@id/black_list_title"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="-5.0dip"
+            android:layout_marginTop="6.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/add_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="32.0dip"
+        android:layout_marginTop="16.0dip"
+        android:background="@drawable/bg_pop_time_black_list"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ic_add2"
+            android:drawablePadding="8.0dip"
+            android:gravity="center"
+            android:text="@string/pop_time_black_list_add_entry" />
+    </RelativeLayout>
+
+    <include
+        android:id="@id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/fan_item"
+        android:visibility="gone" />
+
+</com.lazyswipe.features.poptime.PopTimeBlackListLayout>

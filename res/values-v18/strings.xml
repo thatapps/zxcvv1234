@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">"This service is only used to open Omni Swipe operation correction function. It will not perform any collection and record. If any system voice prompt appears while you're operating the phone, please turn off the TalkBack service in Accessibility in system settings."</string>
+</resources>

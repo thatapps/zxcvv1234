@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">%1$s ว. แล้ว</item>
+        <item quantity="one">%1$s ว. แล้ว</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">%1$s ช. แล้ว</item>
+        <item quantity="one">%1$s ช. แล้ว</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">%1$s น. แล้ว</item>
+        <item quantity="one">%1$s น. แล้ว</item>
+    </plurals>
+</resources>

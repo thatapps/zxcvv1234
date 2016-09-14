@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">이 서비스는 Omni Swipe 작업 수정 기능을 여는 데만 사용됩니다. 이 서비스는 어떤 컬렉션이나 레코드도 수행하지 않습니다. 폰을 작동하는 동안 시스템 음성 안내가 들리면, 시스템 설정의 보조 기능에서 토크백 기능을 끄십시오.</string>
+</resources>

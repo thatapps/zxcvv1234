@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">本服务仅用于开启单手划划操作校正功能，不会进行任何的收集和记录。如果操作手机时出现系统语音提示，请在系统设置的辅助功能中关闭TalkBack功能。</string>
+</resources>

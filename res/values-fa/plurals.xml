@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">%1$s روز قبل</item>
+        <item quantity="one">%1$s روز قبل</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">%1$s ساعت قبل</item>
+        <item quantity="one">%1$s ساعت قبل</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">%1$s دقیقه قبل</item>
+        <item quantity="one">%1$s دقیقه قبل</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Ova usluga se koristi samo da se otvori funkcija za korekciju Omni Swipe operacije. Neće biti obavljeno nikakvu sakupljanje i snimanje. Ukoliko se pojavi bilo koji upit glasa sistema dok koristite telefon, molimo vas da isključite opciju TalkBack (Odgovor) u pomoćnim dunkcijama podešavanja sistema.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">Hace %1$s d</item>
+        <item quantity="one">Hace %1$s d</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">Hace %1$s h</item>
+        <item quantity="one">Hace %1$s h</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">Hace %1$s m</item>
+        <item quantity="one">Hace %1$s m</item>
+    </plurals>
+</resources>

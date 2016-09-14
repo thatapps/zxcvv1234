@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">%1$sd atrás</item>
+        <item quantity="one">%1$sd atrás</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">%1$sh atrás</item>
+        <item quantity="one">%1$sh atrás</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">%1$sm atrás</item>
+        <item quantity="one">%1$sm atrás</item>
+    </plurals>
+</resources>

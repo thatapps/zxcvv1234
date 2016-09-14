@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.ui.FloatWindowHintView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="48.0dip"
+    android:paddingRight="48.0dip" >
+
+    <TextView
+        android:id="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/text_float_window_permission"
+        android:textColor="#ffffffff"
+        android:textSize="16.0dip" />
+
+    <View
+        android:layout_width="1.0dip"
+        android:layout_height="24.0dip" />
+
+    <TextView
+        android:id="@id/action"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rect_button_intend"
+        android:gravity="center"
+        android:maxWidth="233.0dip"
+        android:minHeight="36.0dip"
+        android:text="@string/action_float_window_permission"
+        android:textColor="@color/white"
+        android:textSize="16.0dip" />
+
+</com.lazyswipe.ui.FloatWindowHintView>

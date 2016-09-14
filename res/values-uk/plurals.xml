@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">%1$sд. тому</item>
+        <item quantity="one">%1$sд. тому</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">%1$sг. тому</item>
+        <item quantity="one">%1$sг. тому</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">%1$sхв. тому</item>
+        <item quantity="one">%1$sхв. тому</item>
+    </plurals>
+</resources>

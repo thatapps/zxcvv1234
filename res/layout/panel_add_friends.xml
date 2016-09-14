@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.notification.sms.ContactAddPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <view
+        android:id="@id/friends_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        class="com.lazyswipe.notification.sms.ContactAddPanelListView"
+        android:background="@null"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdgeLength="0.0dip"
+        android:listSelector="#00000000"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="false" />
+
+    <LinearLayout
+        android:id="@id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="18.0dip"
+        android:background="#ffebebeb"
+        android:paddingLeft="20.0dip" >
+
+        <TextView
+            android:id="@id/title_layout_catalog"
+            android:layout_width="35.339996dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ff333333"
+            android:textSize="13.339996sp" />
+    </LinearLayout>
+
+    <com.lazyswipe.widget.SideBar
+        android:id="@id/sidebar"
+        android:layout_width="40.0dip"
+        android:layout_height="420.0dip"
+        android:layout_gravity="right|center" />
+
+</com.lazyswipe.notification.sms.ContactAddPanel>

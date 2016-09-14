@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lazyswipe.zev"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.lazyswipe.SwipeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tile_booster"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="@bool/config_support_rtl"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lazyswipe.ui.StartupActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lazyswipe.ui.MainActivity"
+            android:label="@string/title_tile_swipe_settings"
+            android:launchMode="singleTop"
+            android:theme="@style/SettingsTheme" >
+            <meta-data
+                android:name="com.lazyswipe.FRAGMENT_CLASS"
+                android:value="com.lazyswipe.ui.SettingsFragment" />
+        </activity>
+        <activity
+            android:name="com.lazyswipe.ui.AdvancedSettingsActivity"
+            android:label="@string/pref_title_advanced_settings"
+            android:theme="@style/SettingsTheme" >
+            <meta-data
+                android:name="com.lazyswipe.FRAGMENT_CLASS"
+                android:value="com.lazyswipe.ui.AdvancedSettingsFragment" />
+        </activity>
+        <activity
+            android:name="com.lazyswipe.ui.NotificationSettingsActivity"
+            android:label="@string/pref_title_notification_settings"
+            android:theme="@style/SettingsTheme" >
+            <meta-data
+                android:name="com.lazyswipe.FRAGMENT_CLASS"
+                android:value="com.lazyswipe.ui.NotificationSettingsFragment" />
+        </activity>
+        <activity
+            android:name="com.lazyswipe.ui.InitialSettingsActivity"
+            android:label="@string/pref_title_initial_settings"
+            android:theme="@style/SettingsTheme" >
+            <meta-data
+                android:name="com.lazyswipe.FRAGMENT_CLASS"
+                android:value="com.lazyswipe.ui.InitialSettingsFragment" />
+        </activity>
+        <activity
+            android:name="com.lazyswipe.features.guide.NewGuideActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewGuideTheme" />
+        <activity
+            android:name="com.lazyswipe.features.guide.UpgradeGuideActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewGuideTheme" />
+        <activity
+            android:name="com.lazyswipe.ui.FullscreenTipActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/GuideTheme" />
+        <activity
+            android:name="com.lazyswipe.ui.DialogActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name="com.lazyswipe.ui.chooser.MultiChooserActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.lazyswipe.features.theme.preview.ThemePreviewActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/pref_title_theme"
+            android:launchMode="singleTask"
+            android:process=":theme"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lazyswipe.tile.ScreenCaptureActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name="com.lazyswipe.tile.FlashlightActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.lazyswipe.tile.BrightnessTileActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.lazyswipe.tile.light.LedLightCameraActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.lazyswipe.ui.FragmentContainer$FeedbackActivity"
+            android:label="@string/pref_title_email"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="com.lazyswipe.FRAGMENT_CLASS"
+                android:value="com.lazyswipe.ui.FeedbackFragment" />
+        </activity>
+        <activity
+            android:name="com.lazyswipe.ui.FragmentContainer$AppBoxActivity"
+            android:label="@string/pref_title_app_box"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="com.lazyswipe.FRAGMENT_CLASS"
+                android:value="com.lazyswipe.features.promotion.AppBoxFragment" />
+        </activity>
+
+        <service
+            android:name="com.lazyswipe.SwipeService"
+            android:exported="false" />
+        <service
+            android:name="com.lazyswipe.SwipeServicePhantom"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.lazyswipe.service.PagerService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.lazyswipe.action.AllianceService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.lazyswipe.action.openFan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.lazyswipe.app.LazyProvider"
+            android:authorities="com.lazyswipe"
+            android:exported="true"
+            android:permission="com.lazyswipe.permission.ACCESS_APPLICATION_DATA" />
+
+        <receiver android:name="com.lazyswipe.StartupReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="com.lazyswipe.action.OPEN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.lazyswipe.action.OPEN_FROM_WIDGET" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.lazyswipe.PackageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.lazyswipe.notification.SwipeAccessibilityService"
+            android:enabled="@bool/config_enable_accessibility_service"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityservice" />
+        </service>
+        <service
+            android:name="com.lazyswipe.notification.SwipeAccessibilityServicePreJellyBean"
+            android:enabled="@bool/config_enable_accessibility_service_pre_jelly_bean" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityservice" />
+        </service>
+ 
+
+
+        <service
+            android:name="com.lazyswipe.notification.SwipeNotificationListenerService"
+            android:enabled="@bool/config_enable_notification_listener_service"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.dataflurry.statistics.InstallReferrerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.lazyswipe.ui.TutorialService"
+            android:exported="false" />
+
+        <receiver android:name="com.lazyswipe.WidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/config_facebook_app_id" />
+    </application>
+
+</manifest>

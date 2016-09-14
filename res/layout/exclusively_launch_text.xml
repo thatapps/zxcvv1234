@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/preference_height"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="@string/config_exclusively_launch"
+    android:textColor="@color/preference_summary_text_color_normal"
+    android:textSize="@dimen/preference_description_text_size" />

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.fan.TutorialView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/tutorial_horizontal_padding" >
+
+    <TextView
+        android:id="@id/tutorial_action_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingBottom="16.0dip"
+        android:text="@string/title_tutorial_action_exit"
+        android:textColor="@color/tutorial_title_text_color"
+        android:textSize="@dimen/tutorial_action_text_size_small"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/tutorial_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingBottom="20.0dip"
+        android:textColor="@color/tutorial_title_text_color"
+        android:textSize="@dimen/tutorial_title_text_size" />
+
+    <TextView
+        android:id="@id/tutorial_message_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingBottom="14.0dip"
+        android:textColor="@color/tutorial_message_text_color"
+        android:textSize="@dimen/tutorial_message_text_size" />
+
+    <LinearLayout
+        android:id="@id/tutorial_images_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@id/tutorial_message_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingTop="14.0dip"
+        android:textColor="@color/tutorial_message_text_color"
+        android:textSize="@dimen/tutorial_message_text_size"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@id/tutorial_actions_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20.0dip" >
+
+        <TextView
+            android:id="@id/tutorial_action_left"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/tutorial_action_height"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_rect_button"
+            android:gravity="center"
+            android:paddingLeft="6.0dip"
+            android:paddingRight="6.0dip"
+            android:singleLine="true"
+            android:textColor="@color/tutorial_action_text_color_normal"
+            android:textSize="@dimen/tutorial_action_text_size" />
+
+        <View
+            android:id="@id/tutorial_action_divider"
+            android:layout_width="30.0dip"
+            android:layout_height="1.0dip" />
+
+        <TextView
+            android:id="@id/tutorial_action_middle"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/tutorial_action_height"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_rect_button_intend"
+            android:gravity="center"
+            android:paddingLeft="6.0dip"
+            android:paddingRight="6.0dip"
+            android:singleLine="true"
+            android:textColor="@color/tutorial_action_text_color_intend"
+            android:textSize="@dimen/tutorial_action_text_size"
+            android:visibility="gone" />
+
+        <View
+            android:id="@id/tutorial_action_divider_2"
+            android:layout_width="30.0dip"
+            android:layout_height="1.0dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/tutorial_action_right"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/tutorial_action_height"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_rect_button_intend"
+            android:gravity="center"
+            android:paddingLeft="6.0dip"
+            android:paddingRight="6.0dip"
+            android:singleLine="true"
+            android:textColor="@color/tutorial_action_text_color_intend"
+            android:textSize="@dimen/tutorial_action_text_size" />
+    </LinearLayout>
+
+</com.lazyswipe.fan.TutorialView>

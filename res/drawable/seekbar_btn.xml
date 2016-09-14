@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/seekbar_btn_outter" />
+    <item android:drawable="@drawable/seekbar_btn_inner" android:left="6.669983dip" android:top="6.669983dip" android:right="6.669983dip" android:bottom="6.669983dip" />
+</layer-list>

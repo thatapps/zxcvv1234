@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/custom_dialog_title_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8.0dip"
+        android:paddingLeft="@dimen/custom_dialog_padding"
+        android:paddingRight="@dimen/custom_dialog_padding"
+        android:paddingTop="8.0dip" >
+
+        <ImageView
+            android:id="@id/custom_dialog_icon"
+            android:layout_width="33.329987dip"
+            android:layout_height="33.329987dip"
+            android:layout_marginEnd="@dimen/custom_dialog_title_drawable_padding"
+            android:layout_marginRight="@dimen/custom_dialog_title_drawable_padding"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/custom_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/custom_dialog_title_text_size" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/custom_dialog_title_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/custom_dialog_title_separator_color_default" />
+
+    <LinearLayout
+        android:id="@id/custom_dialog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

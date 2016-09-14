@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="position">
+        <enum name="bottom" value="2" />
+        <enum name="middle" value="1" />
+        <enum name="solo" value="3" />
+        <enum name="top" value="0" />
+    </attr>
+    <attr name="dialogBackground" format="reference" />
+    <attr name="titleTextColor" format="reference|color" />
+    <attr name="titleSeparatorColor" format="reference|color" />
+    <attr name="messageTextColor" format="reference|color" />
+    <attr name="messageTextMinLines" format="reference|integer" />
+    <attr name="buttonTextColor" format="reference|color" />
+    <attr name="buttonTextColorHighlighted" format="reference|color" />
+    <attr name="buttonSeparatorColor" format="reference|color" />
+    <attr name="buttonBackgroundColorNormal" format="reference|color" />
+    <attr name="buttonBackgroundColorPressed" format="reference|color" />
+    <attr name="buttonBackgroundColorFocused" format="reference|color" />
+    <attr name="arcWidth" format="dimension" />
+    <attr name="arcColor" format="reference|color" />
+    <attr name="startAngle" format="integer" />
+    <attr name="sweepAngle" format="integer" />
+    <attr name="rounded" format="boolean" />
+    <attr name="masterColor" format="reference|color" />
+    <attr name="backgroundColor" format="reference|color" />
+    <attr name="fanItemSectorBackgroundColor" format="reference|color" />
+    <attr name="fanItemSectorBackgroundOuterShadowColor" format="reference|color" />
+    <attr name="fanTabSectorBackgroundColor" format="reference|color" />
+    <attr name="fanTabIndicatorTextColor" format="reference|color" />
+    <attr name="fanTabIndicatorTextColorFocused" format="reference|color" />
+    <attr name="fanTabIndicatorTextShadowColor" format="reference|color" />
+    <attr name="fanTabIndicatorColor" format="reference|color" />
+    <attr name="fanSettingBtnBackgroundColor" format="reference|color" />
+    <attr name="fanTileBackgroundColor" format="reference|color" />
+    <attr name="fanTileBackgroundColorHighlighted" format="reference|color" />
+    <attr name="fanItemTextColor" format="reference|color" />
+    <attr name="fanSettingBtnBackgroundColorMiddle" format="reference|color" />
+    <attr name="fanSettingBtnBackgroundColorTop" format="reference|color" />
+    <attr name="fanSettingBtnShadowColor" format="reference|color" />
+    <attr name="fanBoostingLightWaveColor" format="reference|color" />
+    <attr name="isGradient" format="boolean" />
+    <attr name="themePreviewApplyButtonPressedColor" format="reference|color" />
+    <attr name="friendSectorRingColor" format="reference|color" />
+    <attr name="columns" format="integer" />
+    <attr name="rows" format="integer" />
+    <attr name="spacing" format="dimension" />
+    <attr name="sideBuffer" format="integer" />
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="gridRow" format="integer" />
+    <attr name="gridColumn" format="integer" />
+    <attr name="showWidget" format="boolean" />
+    <attr name="customDialogStyle" format="reference" />
+    <attr name="fanStyle" format="reference" />
+    <attr name="customSeekBarStyle" format="reference" />
+</resources>

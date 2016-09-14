@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">このサービスはOmni Swipeの操作修正機能を起動するためにのみ使用されます。回収や記録などは行われません。電話の操作中にシステムの音声プロンプトが現れた場合、システム設定の補助機能でTalkBack機能をオフにしてください。</string>
+</resources>

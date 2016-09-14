@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.fan.Fan xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom|right|center"
+    android:layoutDirection="ltr" >
+
+    <View
+        android:id="@id/fan_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0" />
+
+    <com.lazyswipe.fan.SectorArea
+        android:id="@id/sector_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.lazyswipe.fan.TabSectorBg
+            android:id="@id/tab_sector_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom|center"
+            android:adjustViewBounds="false"
+            android:scaleType="fitEnd" />
+
+        <com.lazyswipe.fan.ItemSectorBg
+            android:id="@id/item_sector_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom|center"
+            android:scaleType="fitStart" />
+
+        <com.lazyswipe.fan.ItemSector
+            android:id="@id/tile_sector"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="end|bottom|center" >
+
+            <com.lazyswipe.fan.FanLayer
+                android:id="@id/icon_layer1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="end|bottom|center" />
+
+            <com.lazyswipe.fan.FanLayer
+                android:id="@id/icon_layer2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="end|bottom|center" />
+        </com.lazyswipe.fan.ItemSector>
+
+        <com.lazyswipe.fan.TabSector
+            android:id="@id/tab_sector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom|center"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="14.0dip"
+            android:paddingTop="14.0dip" >
+
+            <ImageView
+                android:id="@id/tab_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom|center"
+                android:adjustViewBounds="false"
+                android:scaleType="fitEnd"
+                android:visibility="invisible" />
+
+            <com.lazyswipe.fan.TabIndicatorLabel
+                android:id="@id/section_txt0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom|center"
+                android:textSize="12.0sp"
+                android:visibility="invisible" />
+
+            <com.lazyswipe.fan.TabIndicatorLabel
+                android:id="@id/section_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom|center"
+                android:textSize="12.0sp"
+                android:visibility="invisible" />
+
+            <com.lazyswipe.fan.TabIndicatorLabel
+                android:id="@id/section_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom|center"
+                android:textSize="12.0sp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom|center"
+                android:minHeight="24.0dip"
+                android:minWidth="24.0dip"
+                android:visibility="invisible" />
+        </com.lazyswipe.fan.TabSector>
+    </com.lazyswipe.fan.SectorArea>
+
+</com.lazyswipe.fan.Fan>

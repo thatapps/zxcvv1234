@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Este serviço só é usado para abrir a função de correção da operação Omni Swipe. Ele não realizará qualquer coleta e registo, Se algum aviso de voz do sistema aparecer enquanto você estiver operando o telefone, por favor, desligue a função TalkBack nas funções auxiliares dos ajustes do sistema.</string>
+</resources>

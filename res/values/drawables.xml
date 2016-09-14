@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="bg_button_app_promotion_download">false</item>
+    <item type="drawable" name="bg_rate_button">false</item>
+    <item type="drawable" name="bg_rate_button_intend">false</item>
+    <item type="drawable" name="btn_intend">false</item>
+    <item type="drawable" name="dim_behind_background">false</item>
+    <item type="drawable" name="ic_drop_down">false</item>
+    <item type="drawable" name="ic_new_message_notify">false</item>
+    <item type="drawable" name="notification_banner_background">false</item>
+    <item type="drawable" name="custom_dialog_background_default">@android:color/transparent</item>
+</resources>

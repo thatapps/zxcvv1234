@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/custom_dialog_button_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@id/app_chooser_btn_cancel"
+        style="@style/CustomButton"
+        android:text="@android:string/cancel" />
+
+    <include
+        android:id="@id/button_divider"
+        layout="@layout/custom_dialog_button_separator" />
+
+    <Button
+        android:id="@id/app_chooser_btn_ok"
+        style="@style/CustomButton"
+        android:text="@android:string/ok" />
+
+</LinearLayout>

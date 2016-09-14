@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.fan.Fan xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom|right|center" >
+
+    <View
+        android:id="@id/fan_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0" />
+
+    <com.lazyswipe.fan.hetero.iwatch.WatchSectorArea
+        android:id="@id/sector_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.lazyswipe.fan.hetero.iwatch.WatchTabSectorBg
+            android:id="@id/tab_sector_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left|center"
+            android:adjustViewBounds="false"
+            android:scaleType="fitEnd" />
+
+        <com.lazyswipe.fan.hetero.iwatch.WatchItemSector
+            android:id="@id/item_sector"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom|right|center" />
+
+        <com.lazyswipe.fan.hetero.iwatch.WatchTabSector
+            android:id="@id/tab_sector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left|center"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+    </com.lazyswipe.fan.hetero.iwatch.WatchSectorArea>
+
+</com.lazyswipe.fan.Fan>

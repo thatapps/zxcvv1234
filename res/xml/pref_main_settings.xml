@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lazy="http://schemas.android.com/apk/res-auto" >
+
+    <com.lazyswipe.preference.MyLogoPreference android:key="pref_logo" />
+
+    <com.lazyswipe.preference.MyCheckBoxPreference
+        android:defaultValue="true"
+        android:key="key_enable_float_window"
+        android:src="@drawable/preference_icon_swipe"
+        android:title="@string/pref_title_enable_swipe"
+        lazy:position="top" />
+
+    <com.lazyswipe.preference.MyPreference
+        android:key="pref_initial_settings"
+        android:src="@drawable/preference_icon_initial_settings"
+        android:title="@string/pref_title_initial_settings"
+        lazy:position="middle" >
+        <intent
+            android:targetClass="com.lazyswipe.ui.InitialSettingsActivity"
+            android:targetPackage="@string/config_package_name" />
+    </com.lazyswipe.preference.MyPreference>
+    <com.lazyswipe.preference.MyPreference
+        android:dependency="key_enable_float_window"
+        android:key="key_theme"
+        android:src="@drawable/preference_icon_theme"
+        android:title="@string/pref_title_theme"
+        lazy:position="middle" >
+        <intent
+            android:targetClass="com.lazyswipe.features.theme.preview.ThemePreviewActivity"
+            android:targetPackage="@string/config_package_name" />
+    </com.lazyswipe.preference.MyPreference>
+    <com.lazyswipe.preference.MyPreference
+        android:dependency="key_enable_float_window"
+        android:src="@drawable/preference_icon_notification_settings"
+        android:title="@string/pref_title_notification_settings"
+        lazy:position="bottom" >
+        <intent
+            android:targetClass="com.lazyswipe.ui.NotificationSettingsActivity"
+            android:targetPackage="@string/config_package_name" />
+    </com.lazyswipe.preference.MyPreference>
+    <com.lazyswipe.preference.MyPreference
+        android:dependency="key_enable_float_window"
+        android:src="@drawable/preference_icon_advanced_settings"
+        android:title="@string/pref_title_advanced_settings"
+        lazy:position="bottom" >
+        <intent
+            android:targetClass="com.lazyswipe.ui.AdvancedSettingsActivity"
+            android:targetPackage="@string/config_package_name" />
+    </com.lazyswipe.preference.MyPreference>
+    <com.lazyswipe.preference.MyPreference
+        android:key="key_hint_rate"
+        android:src="@drawable/preference_icon_like"
+        android:summary="@string/pref_description_rate_us"
+        android:title="@string/pref_title_rate_us"
+        lazy:position="middle" />
+    <com.lazyswipe.preference.MyPreference
+        android:key="pref_app_promotion"
+        android:src="@drawable/preference_icon_app_promotion_light"
+        android:summary="@string/pref_description_app_promotion"
+        android:title="@string/pref_title_app_promotion"
+        lazy:position="bottom" />
+    <com.lazyswipe.preference.MyPreference
+        android:key="pref_app_box"
+        android:src="@drawable/preference_icon_app_box"
+        android:summary="@string/pref_description_app_promotion"
+        android:title="@string/pref_title_app_box"
+        lazy:position="bottom" >
+        <intent
+            android:targetClass="com.lazyswipe.ui.FragmentContainer$AppBoxActivity"
+            android:targetPackage="@string/config_package_name" />
+    </com.lazyswipe.preference.MyPreference>
+
+    <Preference
+        android:enabled="false"
+        android:key="pref_exclusively_launch"
+        android:layout="@layout/exclusively_launch_text" />
+
+</PreferenceScreen>

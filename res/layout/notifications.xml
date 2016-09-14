@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.fan.NotificationView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@id/notification_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@id/notification_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingTop="121.0dip" >
+
+        <ImageView
+            android:id="@id/icon"
+            android:layout_width="67.32999dip"
+            android:layout_height="67.32999dip"
+            android:padding="12.0dip"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textColor="#80ffffff"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:id="@id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_background"
+            android:padding="15.0dip"
+            android:src="@drawable/ic_clear" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/notification_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/preference_divider_height"
+        android:layout_below="@id/notification_title"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginStart="28.0dip"
+        android:background="@color/preference_divider_color" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/notification_bottom"
+        android:layout_below="@id/notification_divider"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@id/notification_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/preference_icon_clock"
+            android:drawablePadding="5.0dip"
+            android:drawableStart="@drawable/preference_icon_clock"
+            android:textColor="#ffffffff"
+            android:textSize="10.0sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:rotation="45.0"
+        android:src="@drawable/btn_add" />
+
+</com.lazyswipe.fan.NotificationView>

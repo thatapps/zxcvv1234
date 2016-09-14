@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_app_chooser_option_padding_bottom">8.0dip</dimen>
+    <dimen name="activity_app_chooser_tab_indicator_padding_bottom">12.0dip</dimen>
+    <dimen name="activity_main_logo_height">263.0dip</dimen>
+    <dimen name="activity_main_logo_name_size">30.0dip</dimen>
+    <dimen name="activity_main_logo_size">80.0dip</dimen>
+    <dimen name="activity_main_logo_version_indicator_size">10.0dip</dimen>
+    <dimen name="activity_main_logo_version_size">14.0dip</dimen>
+    <dimen name="fan_bg_settings_size">44.0dip</dimen>
+    <dimen name="fan_item_watch_icon_size">62.0dip</dimen>
+    <dimen name="fan_item_watch_text_fading_size">76.0dip</dimen>
+    <dimen name="fan_items_sector_inner_size">306.66406dip</dimen>
+    <dimen name="fan_items_sector_outer_size">426.66406dip</dimen>
+    <dimen name="fan_items_sector_radius_begin">173.32999dip</dimen>
+    <dimen name="fan_seek_bar_size">460.0dip</dimen>
+    <dimen name="fan_seek_bar_size_small">336.0dip</dimen>
+    <dimen name="fan_tab_sector_inner_size">48.799988dip</dimen>
+    <dimen name="fan_tab_sector_outer_size">168.79999dip</dimen>
+    <dimen name="fan_watch_item_gap">24.0dip</dimen>
+    <dimen name="fan_watch_tab_sector_outer_size">160.0dip</dimen>
+    <dimen name="preference_description_text_size">12.0dip</dimen>
+    <dimen name="preference_height">64.0dip</dimen>
+    <dimen name="preference_horizontal_padding">26.889984dip</dimen>
+    <dimen name="preference_title_padding">10.0dip</dimen>
+    <dimen name="preference_title_text_size">17.0dip</dimen>
+    <dimen name="sector_divider_height">20.0dip</dimen>
+    <dimen name="toucher_horizontal_height">20.0dip</dimen>
+    <dimen name="toucher_horizontal_width">60.0dip</dimen>
+    <dimen name="toucher_vertical_height">230.0dip</dimen>
+    <dimen name="toucher_vertical_width">30.0dip</dimen>
+</resources>

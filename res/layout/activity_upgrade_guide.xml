@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.features.guide.UpgradeGuide xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+
+    <include
+        android:id="@id/guide_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/guide_bg" />
+
+    <ImageView
+        android:id="@id/icon_lazy"
+        android:layout_width="91.0dip"
+        android:layout_height="75.66998dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240.0dip"
+        android:alpha="0.0"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo_lazy" />
+
+    <ImageView
+        android:id="@id/icon_omni"
+        android:layout_width="91.0dip"
+        android:layout_height="75.66998dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240.0dip"
+        android:alpha="0.0"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo_omni" />
+
+    <ImageView
+        android:id="@id/icon_omni_solid"
+        android:layout_width="91.0dip"
+        android:layout_height="75.66998dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240.0dip"
+        android:alpha="0.0"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo_icon" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129.0dip"
+        layout="@layout/logo_view" />
+
+    <TextView
+        android:id="@id/label_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242.0dip"
+        android:alpha="0.0"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/user_guide_upgrade_note"
+        android:textColor="@color/white"
+        android:textSize="@dimen/new_guide_slogan_label_size" />
+
+    <TextView
+        android:id="@id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55.0dip"
+        android:alpha="0.0"
+        android:background="@drawable/btn_bg_round"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:minHeight="63.0dip"
+        android:minWidth="63.0dip"
+        android:paddingBottom="7.0dip"
+        android:paddingLeft="14.0dip"
+        android:paddingRight="14.0dip"
+        android:paddingTop="7.0dip"
+        android:text="@string/user_guide_go"
+        android:textColor="@color/white"
+        android:textSize="18.0dip" />
+
+    <TextView
+        android:id="@id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="15.0dip"
+        android:fontFamily="sans-serif-light"
+        android:padding="5.0dip"
+        android:text="@string/title_tutorial_action_exit"
+        android:textColor="#79ffffff"
+        android:textSize="@dimen/new_guide_skip_btn_size" />
+
+</com.lazyswipe.features.guide.UpgradeGuide>

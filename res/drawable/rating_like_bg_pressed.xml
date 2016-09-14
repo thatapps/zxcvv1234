@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/rating_like_bg_normal" />
+    <item android:drawable="@drawable/template_item_pressed" />
+</layer-list>

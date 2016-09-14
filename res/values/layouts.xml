@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="activity_fragment_container">false</item>
+    <item type="layout" name="custom_dialog_edit">false</item>
+    <item type="layout" name="custom_dialog_image_message">false</item>
+    <item type="layout" name="tutorial_most_image_views">false</item>
+    <item type="layout" name="tutorial_recents_image_views">false</item>
+</resources>

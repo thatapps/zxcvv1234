@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Bu hizmet yalnızca Omni Swipe çalışma düzeltme işlevini açmak için kullanılır. Hiçbir toplama ve kayıt işlemi gerçekleştirmeyecektir. Telefonu çalıştırırken herhangi bir sistem sesli uyarısı belirirse, lütfen sistem ayarlarının yardımcı işlevlerinde TalkBack işlevini kapatın.</string>
+</resources>

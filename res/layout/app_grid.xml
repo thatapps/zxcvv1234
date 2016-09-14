@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/gridlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="@integer/multiple_items_chooser_column_count"
+    android:rowCount="@integer/multiple_items_chooser_row_count" >
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+    <include
+        android:layout_width="@dimen/activity_app_chooser_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_app_chooser_item_bottom_margin"
+        layout="@layout/fan_item" />
+
+</GridLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/app_chooser_unchecked" />
+    <item android:drawable="@drawable/app_chooser_checked_body" android:left="2.5dip" android:top="2.5dip" android:right="2.5dip" android:bottom="2.5dip" />
+</layer-list>

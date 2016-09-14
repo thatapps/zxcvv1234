@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="custom_dialog_message_text_min_lines_default">1</integer>
+    <integer name="multiple_items_chooser_column_count">4</integer>
+    <integer name="multiple_items_chooser_row_count">4</integer>
+</resources>

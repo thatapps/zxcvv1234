@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="new_guide_btn_size">17.0dip</dimen>
+    <dimen name="new_guide_label_size">16.0dip</dimen>
+    <dimen name="new_guide_skip_btn_size">14.0dip</dimen>
+    <dimen name="new_guide_slogan_label_size">17.0dip</dimen>
+</resources>

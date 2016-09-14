@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">منذ %1$sيوم</item>
+        <item quantity="one">منذ %1$sيوم</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">"منذ %1$sس "</item>
+        <item quantity="one">"منذ %1$sس "</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">منذ %1$sد</item>
+        <item quantity="one">منذ %1$sد</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_time_days">
+        <item quantity="other">Prije %1$s dana</item>
+        <item quantity="one">Prije %1$s dana</item>
+    </plurals>
+    <plurals name="notification_time_hours">
+        <item quantity="other">Prije %1$s h</item>
+        <item quantity="one">Prije %1$s h</item>
+    </plurals>
+    <plurals name="notification_time_minutes">
+        <item quantity="other">Prije %1$s min</item>
+        <item quantity="one">Prije %1$s min</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="@dimen/custom_dialog_list_item_height"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/custom_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="@dimen/custom_dialog_image_padding_top"
+        android:paddingLeft="@dimen/custom_dialog_padding"
+        android:paddingRight="@dimen/custom_dialog_padding"
+        android:paddingTop="@dimen/custom_dialog_image_padding_top"
+        android:textSize="@dimen/custom_dialog_content_text_size" />
+
+</ScrollView>

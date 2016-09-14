@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/preference_height" >
+
+    <RelativeLayout
+        android:id="@id/preference_background"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/preference_height"
+        android:background="@drawable/preference_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/preference_horizontal_padding"
+        android:paddingStart="@dimen/preference_horizontal_padding" >
+
+        <ImageView
+            android:id="@id/preference_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:minWidth="7.3299866dip" />
+
+        <LinearLayout
+            android:id="@android:id/widget_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerVertical="true"
+            android:baselineAligned="false"
+            android:gravity="end|center"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/preference_horizontal_padding"
+            android:paddingRight="@dimen/preference_horizontal_padding" />
+
+        <LinearLayout
+            android:id="@id/preference_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/preference_icon"
+            android:layout_toLeftOf="@android:id/widget_frame"
+            android:layout_toRightOf="@id/preference_icon"
+            android:layout_toStartOf="@android:id/widget_frame"
+            android:gravity="start|center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/preference_title_padding"
+            android:paddingRight="@dimen/preference_title_padding" >
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/preference_title_text_color"
+                android:textSize="@dimen/preference_title_text_size" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:singleLine="true"
+                android:textColor="@color/preference_summary_text_color"
+                android:textSize="@dimen/preference_description_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/preference_divider_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginLeft="@dimen/preference_title_padding"
+            android:layout_marginStart="@dimen/preference_title_padding"
+            android:layout_toEndOf="@id/preference_icon"
+            android:layout_toRightOf="@id/preference_icon"
+            android:background="@color/preference_divider_color" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/preference_new_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center"
+        android:paddingEnd="12.0dip"
+        android:paddingRight="12.0dip"
+        android:visibility="gone" />
+
+</FrameLayout>

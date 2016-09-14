@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_app_chooser_height">434.0dip</dimen>
+    <dimen name="activity_app_chooser_item_width">73.0dip</dimen>
+    <dimen name="activity_app_chooser_option_padding_bottom">8.0dip</dimen>
+    <dimen name="activity_app_chooser_tab_indicator_padding_bottom">12.0dip</dimen>
+    <dimen name="activity_app_chooser_width">320.0dip</dimen>
+    <dimen name="triangle_drawable_padding">0.0dip</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#80000000"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:paddingBottom="30.0dip" >
+
+    <TextView
+        android:id="@id/windowmanager_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:text="@string/msg_enable_notification_service"
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp" />
+
+</LinearLayout>

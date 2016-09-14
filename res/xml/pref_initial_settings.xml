@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lazy="http://schemas.android.com/apk/res-auto" >
+
+    <com.lazyswipe.preference.MyCheckBoxPreference
+        android:key="pref_accessibility_touch"
+        android:persistent="false"
+        android:title="@string/pref_title_accessibility_touch"
+        lazy:position="solo" />
+
+    <com.lazyswipe.preference.MyPreference
+        android:key="pref_setting_1"
+        lazy:position="top" />
+    <com.lazyswipe.preference.MyPreference
+        android:key="pref_setting_2"
+        lazy:position="bottom" />
+
+</PreferenceScreen>

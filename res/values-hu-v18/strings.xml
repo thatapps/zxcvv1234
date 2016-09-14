@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Ez a szolgáltatás kizárólag a Omni Swipe műveletkorrekciós funkció megnyitására használható. A szolgáltatás nem végez gyűjtést és felvételt. Ha a készülék használata közben megjelenik egy rendszerhang-üzenet, kapcsolja ki a TalkBack funkciót a rendszerbeállítások között található segédfunkcióknál.</string>
+</resources>

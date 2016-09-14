@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">"Ce service est utilisé uniquement pour ouvrir la fonction de correction du fonctionnement de Omni Swipe. Il n'effectuera aucune collecte ni aucun enregistrement. Si un message vocal du système apparaît alors que vous utilisez le téléphone, merci de désactiver la fonction TalkBack dans les fonctions auxiliaires des paramètres du système."</string>
+</resources>

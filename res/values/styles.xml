@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.NoActionBar" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@color/window_background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleSize">48.0dip</item>
+        <item name="android:checkboxStyle">@style/CustomCheckBox</item>
+        <item name="fanStyle">@style/fan</item>
+        <item name="customSeekBarStyle">@style/fan_seek_bar</item>
+    </style>
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/custom_dialog_button_text_size</item>
+        <item name="android:textColor">@color/custom_dialog_button_text_color_default</item>
+        <item name="android:background">@drawable/btn</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check_original</item>
+    </style>
+    <style name="CustomDialog" parent="@style/AppTheme">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="customDialogStyle">@style/custom_dialog</item>
+    </style>
+    <style name="CustomDialogListItem">
+        <item name="android:textSize">@dimen/custom_dialog_content_text_size</item>
+        <item name="android:textColor">@color/custom_dialog_message_text_color_default</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:paddingLeft">@dimen/custom_dialog_list_item_padding</item>
+        <item name="android:paddingRight">@dimen/custom_dialog_list_item_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/custom_dialog_list_item_height</item>
+        <item name="android:minHeight">@dimen/custom_dialog_list_item_height</item>
+    </style>
+    <style name="DialogActivityTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:checkboxStyle">@style/CustomCheckBox</item>
+    </style>
+    <style name="DropDownListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/bg_button</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0.0px</item>
+    </style>
+    <style name="GuideTheme" parent="@style/AppBaseTheme">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@color/guide_background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ListSectorDivider">
+        <item name="android:background">@drawable/sector_divider_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/sector_divider_height</item>
+    </style>
+    <style name="NewGuideTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="PopupMenuStyle" parent="@android:style/Widget">
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:popupBackground">@drawable/popup_background</item>
+    </style>
+    <style name="SeekBar">
+        <item name="android:maxHeight">11.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_bg</item>
+        <item name="android:minHeight">11.0dip</item>
+        <item name="android:thumb">@drawable/seekbar_btn</item>
+        <item name="android:thumbOffset">11.169983dip</item>
+    </style>
+    <style name="SettingsTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+    </style>
+    <style name="TranslucentFullscreenDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="customDialogStyle">@style/translucent_fullscreen_dialog</item>
+    </style>
+    <style name="custom_dialog">
+        <item name="dialogBackground">@drawable/custom_dialog_background_default</item>
+        <item name="titleTextColor">@color/custom_dialog_title_text_color_default</item>
+        <item name="titleSeparatorColor">@color/custom_dialog_title_separator_color_default</item>
+        <item name="messageTextColor">@color/custom_dialog_message_text_color_default</item>
+        <item name="messageTextMinLines">@integer/custom_dialog_message_text_min_lines_default</item>
+        <item name="buttonTextColor">@color/custom_dialog_button_text_color_default</item>
+        <item name="buttonTextColorHighlighted">@color/custom_dialog_button_text_color_highlighted_default</item>
+        <item name="buttonSeparatorColor">@color/custom_dialog_button_separator_color_default</item>
+        <item name="buttonBackgroundColorNormal">@color/custom_dialog_button_background_color_normal_default</item>
+        <item name="buttonBackgroundColorPressed">@color/custom_dialog_button_background_color_pressed_default</item>
+        <item name="buttonBackgroundColorFocused">@color/custom_dialog_button_background_color_focused_default</item>
+    </style>
+    <style name="fan">
+        <item name="masterColor">@color/master_color</item>
+        <item name="backgroundColor">@color/fan_background_color</item>
+        <item name="fanItemSectorBackgroundColor">@color/fan_item_sector_background_color</item>
+        <item name="fanItemSectorBackgroundOuterShadowColor">@android:color/transparent</item>
+        <item name="fanTabSectorBackgroundColor">@color/fan_tab_sector_background_color</item>
+        <item name="fanTabIndicatorTextColor">@color/white</item>
+        <item name="fanTabIndicatorTextColorFocused">@color/white</item>
+        <item name="fanTabIndicatorTextShadowColor">@android:color/transparent</item>
+        <item name="fanTabIndicatorColor">?masterColor</item>
+        <item name="fanSettingBtnBackgroundColor">@color/fan_setting_btn_background_color</item>
+        <item name="fanTileBackgroundColor">@color/fan_tile_background_color_default</item>
+        <item name="fanTileBackgroundColorHighlighted">?masterColor</item>
+        <item name="fanItemTextColor">@color/white</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ff00c6ff</item>
+        <item name="fanSettingBtnBackgroundColorTop">@color/white</item>
+        <item name="fanSettingBtnShadowColor">@android:color/transparent</item>
+        <item name="fanBoostingLightWaveColor">?masterColor</item>
+        <item name="isGradient">false</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff076aad</item>
+        <item name="friendSectorRingColor">?fanTabIndicatorColor</item>
+    </style>
+    <style name="fanBlue" parent="@style/fan">
+        <item name="fanItemSectorBackgroundColor">#e561b5f0</item>
+        <item name="fanTabSectorBackgroundColor">#e5353f4b</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ffffffff</item>
+        <item name="fanTabIndicatorColor">#ff61ade2</item>
+        <item name="fanSettingBtnBackgroundColor">#ff3a638c</item>
+        <item name="fanTileBackgroundColor">#66ffffff</item>
+        <item name="fanTileBackgroundColorHighlighted">#b2294467</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ff61ade2</item>
+        <item name="fanSettingBtnBackgroundColorTop">#ffffffff</item>
+        <item name="fanBoostingLightWaveColor">#e561b5f0</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff3a638c</item>
+    </style>
+    <style name="fanBlueGradient" parent="@style/fan">
+        <item name="fanItemSectorBackgroundOuterShadowColor">#6d188dfb</item>
+        <item name="fanTabSectorBackgroundColor">#ff202231</item>
+        <item name="fanTabIndicatorTextColor">#7fffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ffffffff</item>
+        <item name="fanTabIndicatorTextShadowColor">#7dffffff</item>
+        <item name="fanTabIndicatorColor">#00000000</item>
+        <item name="fanTileBackgroundColor">#7f002b44</item>
+        <item name="fanTileBackgroundColorHighlighted">#ff00ccff</item>
+        <item name="fanSettingBtnShadowColor">#99009cff</item>
+        <item name="isGradient">true</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff007896</item>
+        <item name="friendSectorRingColor">#ff00ccff</item>
+    </style>
+    <style name="fanClassic" parent="@style/fan">
+        <item name="masterColor">@color/master_color</item>
+        <item name="backgroundColor">@color/fan_background_color</item>
+        <item name="fanItemSectorBackgroundColor">@color/fan_item_sector_background_color</item>
+        <item name="fanItemSectorBackgroundOuterShadowColor">@android:color/transparent</item>
+        <item name="fanTabSectorBackgroundColor">@color/fan_tab_sector_background_color</item>
+        <item name="fanTabIndicatorTextColor">@color/white</item>
+        <item name="fanTabIndicatorTextColorFocused">@color/white</item>
+        <item name="fanTabIndicatorTextShadowColor">@android:color/transparent</item>
+        <item name="fanTabIndicatorColor">?masterColor</item>
+        <item name="fanSettingBtnBackgroundColor">@color/fan_setting_btn_background_color</item>
+        <item name="fanTileBackgroundColor">@color/fan_tile_background_color_default</item>
+        <item name="fanTileBackgroundColorHighlighted">?masterColor</item>
+        <item name="fanItemTextColor">@color/white</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ff00c6ff</item>
+        <item name="fanSettingBtnBackgroundColorTop">@color/white</item>
+        <item name="fanSettingBtnShadowColor">@android:color/transparent</item>
+        <item name="fanBoostingLightWaveColor">?masterColor</item>
+        <item name="isGradient">false</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff076aad</item>
+    </style>
+    <style name="fanGreen" parent="@style/fan">
+        <item name="fanItemSectorBackgroundColor">#f24da079</item>
+        <item name="fanTabSectorBackgroundColor">#f22f3d3b</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ffffffff</item>
+        <item name="fanTabIndicatorColor">#ff4f9e79</item>
+        <item name="fanSettingBtnBackgroundColor">#ff4f9e79</item>
+        <item name="fanTileBackgroundColor">#4cffffff</item>
+        <item name="fanTileBackgroundColorHighlighted">#ff85c95d</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ff85c95d</item>
+        <item name="fanSettingBtnBackgroundColorTop">#ffffffff</item>
+        <item name="fanBoostingLightWaveColor">#f24da079</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff3b795c</item>
+    </style>
+    <style name="fanIWatch" parent="@style/fan">
+        <item name="backgroundColor">#d8000000</item>
+        <item name="fanItemSectorBackgroundColor">#30000000</item>
+        <item name="fanTabSectorBackgroundColor">#30000000</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ffffffff</item>
+        <item name="fanTabIndicatorColor">#ffffffff</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff076aad</item>
+    </style>
+    <style name="fanOmniDefault" parent="@style/fan">
+        <item name="fanItemSectorBackgroundColor">#cc2d2d2d</item>
+        <item name="fanTabSectorBackgroundColor">#cc2d2d2d</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ffffffff</item>
+        <item name="fanTabIndicatorColor">#ff9e32c9</item>
+        <item name="fanSettingBtnBackgroundColor">#ff9e32c9</item>
+        <item name="fanTileBackgroundColor">#19ffffff</item>
+        <item name="fanTileBackgroundColorHighlighted">#ff9e32c9</item>
+        <item name="fanItemTextColor">#ffffffff</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ff9e32c9</item>
+        <item name="fanSettingBtnBackgroundColorTop">#ff9e32c9</item>
+        <item name="fanBoostingLightWaveColor">#ff9e32c9</item>
+    </style>
+    <style name="fanRed" parent="@style/fan">
+        <item name="fanItemSectorBackgroundColor">#e5c3434e</item>
+        <item name="fanTabSectorBackgroundColor">#e5433d3d</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ffffffff</item>
+        <item name="fanTabIndicatorColor">#ffba4650</item>
+        <item name="fanSettingBtnBackgroundColor">#ffba4650</item>
+        <item name="fanTileBackgroundColor">#ffc45962</item>
+        <item name="fanTileBackgroundColorHighlighted">#ffffae66</item>
+        <item name="fanItemTextColor">#ffffffff</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ffd66a70</item>
+        <item name="fanSettingBtnBackgroundColorTop">#ffffffff</item>
+        <item name="fanBoostingLightWaveColor">#e5c3434e</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff91363e</item>
+    </style>
+    <style name="fanWhite" parent="@style/fan">
+        <item name="fanItemSectorBackgroundColor">#e5ffffff</item>
+        <item name="fanTabSectorBackgroundColor">#e5384c64</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ff3c4e64</item>
+        <item name="fanTabIndicatorColor">#ffffffff</item>
+        <item name="fanSettingBtnBackgroundColor">#ff5d6d80</item>
+        <item name="fanTileBackgroundColor">#e58dc9fb</item>
+        <item name="fanTileBackgroundColorHighlighted">#cc384c64</item>
+        <item name="fanItemTextColor">#ff5d6d80</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#ff97cdfa</item>
+        <item name="fanSettingBtnBackgroundColorTop">#ffffffff</item>
+        <item name="fanBoostingLightWaveColor">#ff0085ff</item>
+        <item name="themePreviewApplyButtonPressedColor">#ff3f4b58</item>
+    </style>
+    <style name="fanYellow" parent="@style/fan">
+        <item name="fanItemSectorBackgroundColor">#e5ffd555</item>
+        <item name="fanTabSectorBackgroundColor">#e52d2d2d</item>
+        <item name="fanTabIndicatorTextColor">#ffffffff</item>
+        <item name="fanTabIndicatorTextColorFocused">#ff323232</item>
+        <item name="fanTabIndicatorColor">#ffedc754</item>
+        <item name="fanSettingBtnBackgroundColor">#ffefc956</item>
+        <item name="fanTileBackgroundColor">#b2fae9b7</item>
+        <item name="fanTileBackgroundColorHighlighted">#b22d2d2d</item>
+        <item name="fanItemTextColor">#ff675c39</item>
+        <item name="fanSettingBtnBackgroundColorMiddle">#fffae9b7</item>
+        <item name="fanSettingBtnBackgroundColorTop">#ff2d2d2d</item>
+        <item name="fanBoostingLightWaveColor">#e5ffd555</item>
+        <item name="themePreviewApplyButtonPressedColor">#ffa27f14</item>
+    </style>
+    <style name="fan_seek_bar">
+        <item name="android:max">100</item>
+        <item name="android:progress">0</item>
+        <item name="android:thumb">@drawable/fan_seek_bar_thumb</item>
+        <item name="android:radius">@dimen/fan_seek_bar_size</item>
+        <item name="arcWidth">6.0dip</item>
+        <item name="arcColor">@color/fan_seek_bar_color</item>
+        <item name="startAngle">20</item>
+        <item name="sweepAngle">50</item>
+        <item name="rounded">true</item>
+    </style>
+    <style name="translucent_fullscreen_dialog" parent="@style/custom_dialog">
+        <item name="dialogBackground">@android:color/transparent</item>
+    </style>
+</resources>

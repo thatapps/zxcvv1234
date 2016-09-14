@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enable_accessibility_service">false</bool>
+    <bool name="config_enable_accessibility_service_pre_jelly_bean">true</bool>
+    <bool name="config_enable_notification_listener_service">false</bool>
+    <bool name="config_is_global">true</bool>
+    <bool name="config_phantom_service_enabled">false</bool>
+    <bool name="config_support_rtl">false</bool>
+</resources>

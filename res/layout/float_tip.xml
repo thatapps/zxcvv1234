@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.widget.FloatTip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="307.0dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toast_bg"
+        android:minHeight="80.0dip"
+        android:paddingBottom="11.0dip"
+        android:paddingLeft="22.0dip"
+        android:paddingRight="22.0dip"
+        android:paddingTop="11.0dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@id/toast_icon"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:background="#ffededed" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/toast_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff414141"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@id/toast_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:textColor="#ff414141"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.lazyswipe.widget.FloatTip>

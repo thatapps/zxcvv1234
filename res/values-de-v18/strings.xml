@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Dieser Dienst dient nur dem Öffnen der Omni Swipe-Vorgangskorrekturfunktion. Er führt keine Sammlung und Aufzeichnung durch. Falls während der Bedienung des Telefons eine Systemsprachansage ausgegeben wird, schalten Sie bitte die TalkBack-Funktion in den Zusatzfunktionen der Systemeinstellungen aus.</string>
+</resources>

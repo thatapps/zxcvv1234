@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lazyswipe.widget.HorizontalGridList xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lazy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_app_chooser_grid_horizontal_padding"
+    android:paddingRight="@dimen/activity_app_chooser_grid_horizontal_padding"
+    lazy:gridRow="2" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="185.0dip" >
+
+        <com.lazyswipe.widget.GridGallery
+            android:id="@id/app_chooser_recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/app_chooser_indicator"
+            android:paddingEnd="4.0dip"
+            android:paddingRight="4.0dip"
+            android:scrollbars="none" />
+
+        <com.lazyswipe.widget.ScrollIndicator
+            android:id="@id/app_chooser_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8.0dip"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_app_chooser_tab_indicator_padding_bottom" />
+    </RelativeLayout>
+
+</com.lazyswipe.widget.HorizontalGridList>

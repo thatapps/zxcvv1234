@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_intended_normal">false</item>
+    <item type="drawable" name="btn_intended_pressed">false</item>
+    <item type="drawable" name="hint_left_horizontal">false</item>
+    <item type="drawable" name="hint_left_vertical">false</item>
+</resources>

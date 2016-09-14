@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CustomDialogListItem"
+    android:checkMark="@null"
+    android:drawableLeft="@drawable/btn_check_original"
+    android:drawablePadding="@dimen/custom_dialog_choice_drawable_padding"
+    android:drawableStart="@drawable/btn_check_original" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Dịch vụ này chỉ dùng để mở chức năng chỉnh sửa thao tác Omni Swipe. Nó sẽ không thực hiện bất cứ thao tác chỉnh sửa và ghi âm nào. Nếu bất kỳ báo nhắc thoại nào trong hệ thống xuất hiện trong khi bạn đang thao tác trên điện thoại, hãy tắt chức năng TalkBack trong các chức năng hỗ trợ cài đặt hệ thống.</string>
+</resources>
